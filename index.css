@@ -1,0 +1,13 @@
+/* If it aint positioning properly - try "position" or "display" */
+
+/* * means applies to everything */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #333;
+}
