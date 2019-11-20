@@ -1,13 +1,30 @@
 /* If it aint positioning properly - try "position" or "display" */
 
-/* * means applies to everything */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  text-align: left;
+  padding: 1em;
+  line-break: none;
+
+
+
+
+}
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+
+
+
+
 }
 
-body {
-  overflow: hidden;
-  background-color: #333;
+.wrapper > div:nth-child(odd){
+  background: #ddd;
+  padding: 5em;
+
 }

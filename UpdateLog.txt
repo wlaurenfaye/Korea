@@ -290,10 +290,13 @@ How to make testing backgrounds easier
 Tutorials to follow
 
 17:34 28/10/2019
-Took a break from HTML the past week to focus on uni coursework 
 Today I started a new project unti I have genuine content for my portfolio, new project is a website about Korea
 Created the HTML and CSS files for project and inputed necesary starting code
 Researched into web design ideas for it, thinking of having a responsive scrolling site for this project
+
+21:00 20/11/2019
+Started grid layout tutorial for Korea project https://www.youtube.com/watch?v=jV8B24rSN5o 8.17
+
 
 
 
