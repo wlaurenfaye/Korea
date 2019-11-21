@@ -297,6 +297,8 @@ Researched into web design ideas for it, thinking of having a responsive scrolli
 21:00 20/11/2019
 Started grid layout tutorial for Korea project https://www.youtube.com/watch?v=jV8B24rSN5o 8.17
 
+15:37 21/11/2019
+continued grid layout tutorial : 15:49
 
 
 
