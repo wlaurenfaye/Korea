@@ -15,19 +15,24 @@
 
 
 
+
+
 }
 .wrapper > div {
-  background: #eee;
+  background: #F72C00;
   padding: 1em;
-
+  display: flex;
+  position: flex;
+  display: grid;
+  width: auto;
 
 
 
 }
 
 .wrapper > div:nth-child(odd){
-  background: #ddd;
-  padding: 3em;
+  background: #273EFF;
+  padding: 1em;
 
 }
 .nested {
@@ -37,5 +42,10 @@
   grid-gap: 1em;
 }
 .nested > div {
-  border: #333 1px solid;
+  border: #777 1px solid;
+}
+.photos {
+  width: 100%;
+  display: flex;
+  display: inline-grid;
 }

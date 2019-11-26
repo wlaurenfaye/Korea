@@ -299,7 +299,8 @@ Started grid layout tutorial for Korea project https://www.youtube.com/watch?v=j
 
 15:37 21/11/2019
 continued grid layout tutorial : 15:49
-
+19:03 26/11/2019
+played around with inserting images to grid and adjusting proportions s
 
 
 
