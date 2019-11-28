@@ -300,7 +300,12 @@ Started grid layout tutorial for Korea project https://www.youtube.com/watch?v=j
 15:37 21/11/2019
 continued grid layout tutorial : 15:49
 19:03 26/11/2019
-played around with inserting images to grid and adjusting proportions s
+played around with inserting images to grid and adjusting proportions 
+
+22:25 28/11/2019
+layout concept tried out 
+to figure out: how to ensure photos fill element in grid while staying inline and how to keep the text within the nested border
+
 
 
 

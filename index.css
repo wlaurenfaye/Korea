@@ -1,5 +1,9 @@
 /* If it aint positioning properly - try "position" or "display" */
 
+body {
+  overflow: scroll;
+  background: #333;
+}
 
 .wrapper {
   display: grid;
@@ -11,29 +15,20 @@
   */
   grid-gap: 1em;
   grid-auto-rows: minmax (100px, auto);
-
-
-
-
-
-
 }
+
 .wrapper > div {
-  background: #F72C00;
+  background: #E40000;
   padding: 1em;
   display: flex;
   position: flex;
   display: grid;
   width: auto;
-
-
-
 }
 
 .wrapper > div:nth-child(odd){
   background: #273EFF;
   padding: 1em;
-
 }
 .nested {
   display:grid;
@@ -42,10 +37,22 @@
   grid-gap: 1em;
 }
 .nested > div {
-  border: #777 1px solid;
+  border: #777 3px solid;
+  font-size: 25px;
+  color: white;
 }
 .photos {
-  width: 100%;
-  display: flex;
+  width: 100%;;
+  height: auto;
   display: inline-grid;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  font-family: Rubik;
+  color: white;
+  text-decoration: overline;
+  text-decoration-color: #333;
+  text-decoration-style: double;
 }
