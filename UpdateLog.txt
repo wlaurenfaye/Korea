@@ -305,6 +305,9 @@ played around with inserting images to grid and adjusting proportions
 22:25 28/11/2019
 layout concept tried out 
 to figure out: how to ensure photos fill element in grid while staying inline and how to keep the text within the nested border
+17:01 21/01/2020
+New year new design :*
+Trying a new scrollable design which goes into a grid layout from a solid fill background 
 
 
 
