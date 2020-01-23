@@ -64,38 +64,29 @@ body {
   text-decoration: overline;
   text-decoration-color: #333;
   text-decoration-style: double;
-  position: relative;
-  margin-bottom: -12px;
-margin-top: 15px;
+  position: fixed;
+  margin-top:200px;
+  padding-top: 118px;
+  position:initial;
+  font-weight: bolder;
 }
-/*
-.subtitle1 {
-  text-align: left;
-  font-size: 30px;
-  font-family: Rubik;
-  color: white;
 
-}
-.subtitle2 {
+
+
+li /*subtitles*/ {
   text-align: center;
   font-size: 30px;
   font-family: Rubik;
-  color: white;
+  color: white;s
+  font-weight: lighter;
+  list-style-type: none;
+
+
 
 }
-.subtitle3 {
-  text-align: right;
-  font-size: 30px;
-  font-family: Rubik;
-  color: white;
-
-}
-*/
-.subtitles {
-  text-align: center;
-  font-size: 30px;
-  font-family: Rubik;
-  color: white;
+ul {
+padding-left: 150px;
+padding-right: 150px;
 }
 #landingPageSection {
   width: 100%;
@@ -113,4 +104,15 @@ margin-top: 15px;
   background-size: cover;
   opacity: 0.5;
 
+}
+
+li a:hover {
+  background-color: #333;
+
+}
+li a  {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-align:inherit;
 }

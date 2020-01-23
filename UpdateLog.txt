@@ -308,6 +308,8 @@ to figure out: how to ensure photos fill element in grid while staying inline an
 17:01 21/01/2020
 New year new design :*
 Trying a new scrollable design which goes into a grid layout from a solid fill background 
+19:49 23/01/2020 
+Landing page styled, links not added yet
 
 
 
