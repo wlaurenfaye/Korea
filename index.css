@@ -4,6 +4,7 @@ body {
   overflow:scroll;
   background: "images/koreaFlag.jpg";
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -37,6 +38,7 @@ body {
   grid-template-columns:repeat(3, 5fr);
   grid-auto-rows: fill;
   grid-gap: 1em;
+  display: cover;
 }
 
 .nested > div {
@@ -46,12 +48,14 @@ body {
   position: contain;
   text-align: center;
   text-shadow: 3px, #333;
+  display: cover;
 }
 .photos {
   width: 100%;;
   height: auto;
   display: inline-grid;
   display: fill;
+
 
 
 }
@@ -88,21 +92,37 @@ ul {
 padding-left: 150px;
 padding-right: 150px;
 }
-#landingPageSection {
+#landingPage {
   width: 100%;
   height: 100%;
   position: absolute;
+  overflow-y: scroll;
+
+}
+#GEOGRAPHY {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+
+
+}
+#history {
+
+}
+
+#culture {
 
 }
 #bkgdLandingPage {
   height: 100%;
   width: 100%;
-  background: url(images/koreaFlag.jpg);
+  background: url(images/korea.jpg);
   position: absolute;
   z-index: -1;
   display: block;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.7;
 
 }
 

@@ -311,6 +311,10 @@ Trying a new scrollable design which goes into a grid layout from a solid fill b
 19:49 23/01/2020 
 Landing page styled, links not added yet
 
+12:06 24/01/2020
+https://www.youtube.com/watch?v=y9nlfqT4s9s
+adding smooth scroll, trying to separate pages from landing page but keep grid??
+
 
 
 
