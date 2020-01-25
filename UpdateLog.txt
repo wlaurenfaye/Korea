@@ -315,6 +315,9 @@ Landing page styled, links not added yet
 https://www.youtube.com/watch?v=y9nlfqT4s9s
 adding smooth scroll, trying to separate pages from landing page but keep grid??
 
+13:35 25/01/2020
+Managed to get pages separate, need to get rid of margin above landing page and fix top grid title/photo spacing
+
 
 
 
