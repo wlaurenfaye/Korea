@@ -3,8 +3,8 @@
 body {
   overflow:scroll;
   background: "images/korea.jpg";
-  margin: auto;
-  scroll-behavior: smooth;
+  margin: 0;
+
 }
 
 .wrapper {
@@ -24,8 +24,6 @@ body {
 .wrapper > div {
   background: #4d94ff;
   padding: 1em;
-  display: flex;
-  position: flex;
   display: grid;
   width: auto;
 
@@ -71,10 +69,10 @@ body {
   text-decoration-color: #333;
   text-decoration-style: double;
   position: fixed;
-  margin-top:200px;
   padding-top: 118px;
   position:initial;
   font-weight: bolder;
+  margin-top: 0px;
 }
 
 .subtitle {
@@ -86,8 +84,7 @@ body {
   text-decoration-color: #333;
   text-decoration-style: double;
   z-index: auto;
-  margin-top:200px;
-  padding-top: 118px;
+  padding-top: 70px;
   position:initial;
   font-weight: bolder;
 }
@@ -114,7 +111,6 @@ padding-right: 150px;
   position: absolute;
   overflow-y: scroll;
   display: contents;
-  scroll-behavior: smooth;
 
 
 }
@@ -123,7 +119,6 @@ padding-right: 150px;
   height: 100vh;
   display: table;
   overflow-y: scroll;
-  scroll-behavior: smooth;
   margin-top: 35%;
 
 
@@ -146,6 +141,7 @@ padding-right: 150px;
   display: cover;
   background-size: cover;
   opacity: 0.7;
+  margin: 0,0,0,0;
 
 }
 
@@ -158,4 +154,11 @@ li a  {
   color: white;
   display: inline-block;
   text-align:inherit;
+}
+/* GRID FOR WHOLE SITE */
+.container {
+scroll-snap-type: mandatory;
+}
+.child {
+  scroll-snap-align: start;
 }
