@@ -319,7 +319,10 @@ adding smooth scroll, trying to separate pages from landing page but keep grid??
 Managed to get pages separate, need to get rid of margin above landing page and fix top grid title/photo spacing
 21:23 28/01/2020
 spacing fixed but creating new outer grid to position separate pages with a container and child elements
-
+https://css-tricks.com/practical-css-scroll-snapping/
+13:30 29/01/2020
+snap scroll not working, fixed background as scrolling, need to fix spacing on images
+ and add relevent geography images 
 
 
 

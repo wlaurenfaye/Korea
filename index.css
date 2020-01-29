@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper > div {
-  background: #4d94ff;
+  background: #944;
   padding: 1em;
   display: grid;
   width: auto;
@@ -30,8 +30,9 @@ body {
 }
 
 .wrapper > div:nth-child(odd){
-  background: #ff3333;
+  background: #333;
   padding: 1em;
+  display: cover;
 }
 
 .nested {
@@ -50,6 +51,7 @@ body {
   text-align: center;
   text-shadow: 3px, #333;
   display: cover;
+  font-family: Rubik;
 }
 .photos {
   width: 100%;;
@@ -69,7 +71,7 @@ body {
   text-decoration-color: #333;
   text-decoration-style: double;
   position: fixed;
-  padding-top: 118px;
+  padding-top: 325px;
   position:initial;
   font-weight: bolder;
   margin-top: 0px;
@@ -77,7 +79,7 @@ body {
 
 .subtitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-family: Rubik;
   color: #333;
   text-decoration: overline;
@@ -119,7 +121,7 @@ padding-right: 150px;
   height: 100vh;
   display: table;
   overflow-y: scroll;
-  margin-top: 35%;
+  margin-top: 25%;
 
 
 
@@ -136,7 +138,7 @@ padding-right: 150px;
   height: 100%;
   width: 100%;
   background: url(images/korea.jpg);
-  position: absolute;
+  position: fixed;
   z-index: -1;
   display: cover;
   background-size: cover;
