@@ -322,7 +322,9 @@ spacing fixed but creating new outer grid to position separate pages with a cont
 https://css-tricks.com/practical-css-scroll-snapping/
 13:30 29/01/2020
 snap scroll not working, fixed background as scrolling, need to fix spacing on images
- and add relevent geography images 
+ and add relevent geography images  
+14:59 31/01/2020
+fixedspacing on images and removed grid for subtitle divs but now the grid for the text is messed up?ss
 
 
 

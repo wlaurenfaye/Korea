@@ -23,7 +23,7 @@ body {
 
 .wrapper > div {
   background: #944;
-  padding: 1em;
+  padding: 0.5rem;
   display: grid;
   width: auto;
 
@@ -31,16 +31,27 @@ body {
 
 .wrapper > div:nth-child(odd){
   background: #333;
-  padding: 1em;
-  display: cover;
+  padding: 0.5em;
+  display: inline-flex;
 }
 
-.nested {
-  display:grid;
+.nestedText {
+
   grid-template-columns:repeat(3, 5fr);
   grid-auto-rows: fill;
   grid-gap: 1em;
   display: cover;
+}
+.nestedTitle {
+  font-size: 60px;
+  font-family: Rubik;
+  color: #333;
+  text-decoration: overline;
+  text-decoration-color: #333;
+  text-decoration-style: double;
+  z-index: auto;
+  padding-top: 31px;
+  display: inline-table;
 }
 
 .nested > div {
@@ -50,21 +61,21 @@ body {
   position: contain;
   text-align: center;
   text-shadow: 3px, #333;
-  display: cover;
+  display: center;
   font-family: Rubik;
 }
 .photos {
   width: 100%;;
   height: auto;
   display: inline-grid;
-  display: cover;
+  display: inline-flex;
   position: cover;
 
 }
 
 .title {
   text-align: center;
-  font-size: 60px;
+  font-size: 90px;
   font-family: Rubik;
   color: #333;
   text-decoration: overline;
@@ -78,17 +89,7 @@ body {
 }
 
 .subtitle {
-  text-align: center;
-  font-size: 50px;
-  font-family: Rubik;
-  color: #333;
-  text-decoration: overline;
-  text-decoration-color: #333;
-  text-decoration-style: double;
-  z-index: auto;
-  padding-top: 70px;
-  position:initial;
-  font-weight: bolder;
+
 }
 
 
