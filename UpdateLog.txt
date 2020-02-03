@@ -324,7 +324,9 @@ https://css-tricks.com/practical-css-scroll-snapping/
 snap scroll not working, fixed background as scrolling, need to fix spacing on images
  and add relevent geography images  
 14:59 31/01/2020
-fixedspacing on images and removed grid for subtitle divs but now the grid for the text is messed up?ss
+fixedspacing on images and removed grid for subtitle divs but now the grid for the text is messed up?
+18:45 03/02/2020
+grid text fixed, eliminated image stretching for text div length
 
 
 
