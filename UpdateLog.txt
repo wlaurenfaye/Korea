@@ -328,7 +328,8 @@ fixedspacing on images and removed grid for subtitle divs but now the grid for t
 18:45 03/02/2020
 grid text fixed, eliminated image stretching for text div length
 
-
+21:14 04/02/2020
+added nav bar, want to make it a sticky one to all pages 
 
 
 
