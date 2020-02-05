@@ -331,5 +331,7 @@ grid text fixed, eliminated image stretching for text div length
 21:14 04/02/2020
 added nav bar, want to make it a sticky one to all pages 
 
+21:01 05/02/2020
+Started basic external javascript for nav bar 
 
 
