@@ -1,14 +1,15 @@
 
   <script>
 
-  window.onscroll = (function) {my function()};
+  window.onscroll = function() {my function()};
 
-  var navBardocument.getElementById("navBar");
+  var navBar = document.getElementById("navBar");
 
   var sticky =navBar.offset.Top;
+  var navBar = function()
 
-  function myFunction () {
-    if (window.pageYOffset >=sticky) {
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
       navBar.classlist.add ("sticky") }
       else {
         navBar.classList.remove("sticky");

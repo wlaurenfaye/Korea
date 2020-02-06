@@ -333,5 +333,7 @@ added nav bar, want to make it a sticky one to all pages
 
 21:01 05/02/2020
 Started basic external javascript for nav bar 
-
+16:09 06/02/2020
+More read up of js, cant get it to work with my navBar, https://github.com/mickadamouse1/Portfolio/blob/master/js/index.js micheals js for portfolio, might just start from the begining of a tutorial?
+https://www.youtube.com/watch?v=uDAyHncCfqQ
 

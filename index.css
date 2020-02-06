@@ -92,17 +92,6 @@ body {
 
 
 
-li /*subtitles*/ {
-  text-align: center;
-  font-size: 30px;
-  font-family: Rubik;
-  color: white;s
-  font-weight: lighter;
-  list-style-type: none;
-
-
-
-}
 
 #landingPage {
   width: 100%;
@@ -154,7 +143,8 @@ li /*subtitles*/ {
 
 }
 
-#navBar { font-size: 35px;
+#navBar {
+font-size: 35px;
 font-family: Rubik;
 list-style-type: none;
 overflow: hidden;
@@ -165,25 +155,34 @@ text-decoration: none;
 margin-top: 0px;
 }
 
-li {
-  float: left;
-  margin-right:100px;
-}
 
-li a:hover {
+
+#navBar a:hover {
   background-color: #944;
 
 }
-li a  {
-  text-decoration: none;
+
+
+#navBar a /*subtitles*/ {
+  text-align: center;
+  font-size: 30px;
+  font-family: Rubik;
   color: white;
-  display: inline-block;
-  text-align:inherit;
+  font-weight: lighter;
+  list-style-type: none;
+  float: left;
+  margin-right:100px;
+  text-decoration: none;
+
+
 }
-/* GRID FOR WHOLE SITE */
-.container {
-scroll-snap-type: mandatory;
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+
 }
-.child {
-  scroll-snap-align: start;
+.sticky + .content {
+  padding-top: 60px;
 }
