@@ -26,6 +26,7 @@ body {
   padding: 0.5rem;
   display: table;
   width: auto;
+  z-index: 1;
 
 }
 
@@ -33,6 +34,7 @@ body {
   background: #333;
   padding: 0.5em;
   display: inline-flex;
+  z-index: 1 ;
 }
 
 .nestedText {
@@ -46,7 +48,6 @@ body {
   text-decoration: overline;
   text-decoration-color: #333;
   text-decoration-style: double;
-  z-index: auto;
   padding-top: 31px;
   display: inline-table;
 }
@@ -64,13 +65,10 @@ body {
   grid-auto-rows: fill;
   grid-gap: 1em;
   display: cover;
+  z-index: 1;
 }
 .photos {
-  width: 100%;;
-  height: auto;
-  display: inline-grid;
-  display: inline-flex;
-  position: cover;
+
 
 }
 
@@ -185,4 +183,23 @@ margin-top: 0px;
 }
 .sticky + .content {
   padding-top: 60px;
+}
+
+div > img{
+/*transform: rotateY(180deg);*/
+transition:width 1s, height 4s, transform 2s;
+transition-timing-function: ease-in-out;
+width: 100%;;
+height: auto;
+display: inline-grid;
+display: inline-flex;
+position: cover;
+z-index: 3;
+}
+div > img:hover {
+width: 600px;
+height: 800px:
+
+
+
 }
