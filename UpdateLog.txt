@@ -299,15 +299,18 @@ Started grid layout tutorial for Korea project https://www.youtube.com/watch?v=j
 
 15:37 21/11/2019
 continued grid layout tutorial : 15:49
+
 19:03 26/11/2019
 played around with inserting images to grid and adjusting proportions 
 
 22:25 28/11/2019
 layout concept tried out 
 to figure out: how to ensure photos fill element in grid while staying inline and how to keep the text within the nested border
+
 17:01 21/01/2020
 New year new design :*
 Trying a new scrollable design which goes into a grid layout from a solid fill background 
+
 19:49 23/01/2020 
 Landing page styled, links not added yet
 
@@ -317,14 +320,18 @@ adding smooth scroll, trying to separate pages from landing page but keep grid??
 
 13:35 25/01/2020
 Managed to get pages separate, need to get rid of margin above landing page and fix top grid title/photo spacing
+
 21:23 28/01/2020
 spacing fixed but creating new outer grid to position separate pages with a container and child elements
 https://css-tricks.com/practical-css-scroll-snapping/
+
 13:30 29/01/2020
 snap scroll not working, fixed background as scrolling, need to fix spacing on images
  and add relevent geography images  
+
 14:59 31/01/2020
 fixedspacing on images and removed grid for subtitle divs but now the grid for the text is messed up?
+
 18:45 03/02/2020
 grid text fixed, eliminated image stretching for text div length
 
@@ -333,10 +340,14 @@ added nav bar, want to make it a sticky one to all pages
 
 21:01 05/02/2020
 Started basic external javascript for nav bar 
+
 16:09 06/02/2020
 More read up of js, cant get it to work with my navBar, https://github.com/mickadamouse1/Portfolio/blob/master/js/index.js micheals js for portfolio, might just start from the begining of a tutorial?
 https://www.youtube.com/watch?v=uDAyHncCfqQ
 
 18:25 07/02/2020
 Read about and practiced using <transform> and <transition> tags on img divs
+
+21:18 10/02/2020
+adding more photos, need to change the grid 
 
