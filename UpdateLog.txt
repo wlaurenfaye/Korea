@@ -351,3 +351,6 @@ Read about and practiced using <transform> and <transition> tags on img divs
 21:18 10/02/2020
 adding more photos, need to change the grid 
 
+17:39 11/02/2020 
+fitting more images to the grid, adjusting fr and deciding if to have images share a div or not
+
